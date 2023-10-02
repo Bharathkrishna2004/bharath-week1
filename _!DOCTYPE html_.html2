@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: #c60909;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        th {
+            background-color: #d68d8d;
+            color: #df2020;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #eaaeae;
+            color: #d31f1f;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Web Page</h1>
+
+    <img src="dog.jpg" alt="Sample Image" style="width: 300px; height: 200px; margin: 0 auto; display: block;">
+
+    <table border="1">
+        <tr>
+            <th>Account 1</th>
+            <th>Account 2</th>
+        </tr>
+        <tr>
+            <td>Professional Account</td>
+            <td>Personal Account</td>
+        </tr>
+        <tr>
+            <td>Add Professional Details</td>
+            <td>Add Personal Details</td>
+        </tr>
+    </table>
+
+    <form action="submit.php" method="post" style="width: 50%; margin: 0 auto;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"
